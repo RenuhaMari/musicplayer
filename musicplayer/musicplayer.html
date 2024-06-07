@@ -1,0 +1,65 @@
+<!Doctype html>
+<html>
+    <head>
+        <title>Music Player</title>
+        <link rel="stylesheet" href="musicplayer.css">
+        <script src="https://kit.fontawesome.com/3adb1f7aee.js" crossorigin="anonymous"></script>
+
+    </head>
+    <body class="container">
+        <div class="musicplayer">
+            <header>
+                <button class="btn">
+                    <i class="fa-solid fa-angle-left"></i>
+                </button>
+                <button class="btn">
+                    <i class="fa-solid fa-bars"></i>
+                </button>
+            </header>
+            <div class="player">
+                <div class="img">
+                    <img src="saturn.webp">
+                </div>
+                <div class="song-details">
+                    <h2 class="name">Saturn</h2>
+                    <h4 class="artist">SZA</h4>
+                </div>
+                <div class="audio">
+                    <div class="song-timer">
+                        <span class="current">0:00</span>
+                        <span class="max">0:00</span>
+                    </div>
+                    <div class="progress">
+                        <div class="bar">
+                            <audio id="main-audio" src="SZA_Saturn.mp3"></audio>
+                        </div>
+                    </div>
+                </div>
+                <div class="controls">
+                    <button class="btnC" id="prev">
+                        <i class="fa-solid fa-backward-step"></i>
+                    </button>
+                    <button class="btnC" id="play">
+                        <i class="fa-solid fa-play"></i>
+                    </button>
+                    <button class="btnC" id="next">
+                        <i class="fa-solid fa-forward-step"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+        <script src="musicplayer.js"></script>
+    </body>
+</html>
+
+
+
+
+                    
+
+                        
+
+
+
+
+            
